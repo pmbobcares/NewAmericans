@@ -1,0 +1,43 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "image": "default"
+      },
+      "ios": {
+        "simulator": true,
+        "image": "default"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "app-bundle",
+        "image": "default"
+      },
+      "ios": {
+        "simulator": false,
+        "image": "default"
+      }
+    },
+    "production": {
+      "distribution": "store",
+      "android": {
+        "buildType": "app-bundle",
+        "image": "default"
+      },
+      "ios": {
+        "simulator": false,
+        "image": "default"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      
+    }
+  }
+}

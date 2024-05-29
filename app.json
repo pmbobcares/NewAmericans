@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "NewAmericans",
+    "slug": "NewAmericans",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/snhucfna.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/snhucfna.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#082241"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.myselflohith.NewAmericans"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.myselflohith.NewAmericans"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "asset": [
+            "./assets/Fonts/Nunito/static/Nunito-Regular.ttf"
+          ],
+          "fontName": "Nunito-Regular"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "owner": "myselflohith",
+    "extra": {
+      "eas": {
+        "projectId": "6c48141d-6574-448a-8da2-0fc3392dbb07"
+      }
+    }
+  }
+}
